@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+
+
+
+
+
+.bienvenido{
+    text-align: center;
+}
+
+#login{
+    width: 20%;
+    height: 13em;
+    margin: 4em auto;
+}
+
+.mess{
+   margin-left: -5px;
+   margin-left: 35%;
+}
+

@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+nav{
+   margin: auto;
+}
+
+.row{
+    height: 15em;
+}
+
+.principal{
+	margin-bottom: 1em;
+}
+
+.cuadros{
+    position:relative;
+    float: left;
+    display: inline-block;
+    shape-outside:polygon;
+    width: 40%;
+    height: 15em;
+    border:1px solid blue;
+    margin-left: 2em;
+}
+
+.panel{
+    
+    display:inline-block;
+    float: left;
+    margin-top: 2em;
+    margin-left: 10em;
+    width: 30%;
+}
+
+h3{
+    font-weight: 800;
+}

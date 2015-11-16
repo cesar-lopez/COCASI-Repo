@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.header{
+    border-radius: 3px;
+    color: white;
+    background-color:#368aca;
+    padding: 1em;
+    margin: auto;
+}
+
+.navigation{
+
+    width: 15em;
+    float:right;
+    font-weight:800;
+    
+}
+
+footer{
+   
+    text-align: center;
+}
