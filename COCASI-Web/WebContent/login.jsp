@@ -39,7 +39,7 @@
 				<label for="contrasenaTextBox">Contraseña</label>
 				<input type="password" class="form-control" id="contrasena" placeholder="Contraseña" name="contrasenaTextBox">
 			</div>
-			<button type="submit" class="btn btn-primary" value="Iniciar" formmethod="post" formaction="demo_post.asp">Iniciar</button>
+			<button type="submit" class="btn btn-primary" value="Iniciar" formmethod="post" formaction="Login">Iniciar</button>
 		</form>
 		<label></label>
 
