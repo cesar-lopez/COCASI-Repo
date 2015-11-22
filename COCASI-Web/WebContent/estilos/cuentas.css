@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+body {
+}
+
+.row{
+    margin-top: 0;
+}
+
+h3{
+    text-align:center;
+}
+
+#cancelarButton{
+    margin-left: 20em;
+}
+
+.gridheader{
+    background-color: #61b5ed;
+    font-weight:bolder;
+    text-align:center;
+}

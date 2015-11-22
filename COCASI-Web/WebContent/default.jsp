@@ -3,6 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<!-- COMENTARIO: Este archivo jsp sirve para mostrar las vista de la pagina de Principal.
+	Este es el sitio que los llevara  cada modulo: Cuentas, Fallas, Eventos o Reportes-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link href="estilos/reset.css" rel="stylesheet" type="text/css"/>
 	<%@include file="header.html" %>
@@ -30,7 +32,7 @@
 		 <%--Principal  --%>
 		<div class="row">
 		<div class="col-lg-12 col-md-12 principal">
-		<a href="#"><div class="panel panel-default">
+		<a href="cuentas.jsp"><div class="panel panel-default">
 				<div class="panel-heading" style="background-color: #9074a5">
 					<h3 class="panel-title">Cuentas</h3>
 				</div>

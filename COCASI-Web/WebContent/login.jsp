@@ -1,8 +1,11 @@
+<%@taglib prefix='c' uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<!-- COMENTARIO: Este archivo jsp sirve para mostrar las vista de la pagina de Login.
+	Aqui se introduce usuario y contrasena-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link href="estilos/reset.css" rel="stylesheet" type="text/css"/>
 <%@include file="header.html" %>
@@ -33,7 +36,7 @@
 		<form id="login">
 			<div class="form-group">
 				<label for="usuarioTextBox">Usuario</label>
-				<input type="text" class="form-control" id="nombre" placeholder="Nombre" name="usuarioTextBox">
+				<input type="text" class="form-control" id="usuario" placeholder="Usuario" name="usuarioTextBox">
 			</div>
 			<div class="form-group">
 				<label for="contrasenaTextBox">Contraseña</label>
@@ -41,7 +44,9 @@
 			</div>
 			<button type="submit" class="btn btn-primary" value="Iniciar" formmethod="post" formaction="Login">Iniciar</button>
 		</form>
-		<label></label>
+		<div class="<c:out value="${clase}"></c:out>">
+			<c:out value="${mensaje}"></c:out>
+		</div>
 
 		<%-- Pie de pagina--%>
        <br />

@@ -28,6 +28,7 @@ public class Usuario implements java.io.Serializable {
 	private String login;
 	private String nombre;
 	private String apellido;
+	private String contrasena;
 
 	public Usuario() {
 	}
@@ -86,6 +87,14 @@ public class Usuario implements java.io.Serializable {
 
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
+	}
+	@Column(name = "contrasena", nullable = false, length = 45)
+	public String getContrasena() {
+		return contrasena;
+	}
+
+	public void setContrasena(String contrasena) {
+		this.contrasena = contrasena;
 	}
 
 }
